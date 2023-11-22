@@ -9,7 +9,7 @@ function mapChars(str){
 			obj[str[i]] = [i];
 		}
 	}
-	return obj;
+	return JSON.stringify(obj);
 }
 
 const str = prompt("Enter the string");
